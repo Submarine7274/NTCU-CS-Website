@@ -10,7 +10,6 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 1px;
     background-image: linear-gradient(to right, #39D4FF, transparent);
     background-size: 100% 4px;
     background-repeat: no-repeat;
