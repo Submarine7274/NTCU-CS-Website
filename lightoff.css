@@ -4,23 +4,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
 
 h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 1px;
+    background-image: linear-gradient(to right, #FFE62D, transparent);
+    background-size: 100% 4px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
 }
 
 h2 {
     font-size: 24px;
     font-weight: bold;
-
+    border-left: 6px solid #FFE62D;
+    text-align: left;
 }
 
 p {
     font-size: 16px;
     line-height: 1.6;
+    text-align: left;
 }
 
 .text-block {
@@ -30,6 +39,7 @@ p {
     border-radius: 8px;
     border-style: ridge;
     border-color: #ddd;
+    text-align: left;
 }
 
 .responsive-img {
@@ -37,6 +47,7 @@ p {
     max-width: 600px;
     height: auto;
     object-fit: contain;
+    border: 3px solid #fff;
     border-radius: 10px;
     display: block;
     margin: 10px auto;
@@ -52,4 +63,5 @@ p {
     border-radius: 5px;
     background: #fff;
     color: #1e1e1e;
+    text-align: center;
 }
