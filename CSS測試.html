@@ -23,9 +23,10 @@
     <script>
         function toggleMode() {
             let themeLink = document.getElementById("theme-style");
-            if (themeLink.getAttribute("href") === "lighton.css") {
+            if(themeLink.getAttribute("href") === "lighton.css") {
                 themeLink.setAttribute("href", "lightoff.css");
-            } else {
+            } 
+            else{
                 themeLink.setAttribute("href", "lighton.css");
             }
         }
