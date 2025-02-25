@@ -1,5 +1,5 @@
 系網學習作業
 week1:
-https://github.com/Submarine7274/NTCU-CS-Website/blob/main/week1/about.html  
+[about](https://github.com/Submarine7274/NTCU-CS-Website/blob/main/week1/about.html)  
 week2:
-https://github.com/Submarine7274/NTCU-CS-Website/blob/main/week2/csweb.html  
+[cswebsite](https://github.com/Submarine7274/NTCU-CS-Website/blob/main/week2/csweb.html)  
