@@ -1,0 +1,267 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0px;
+    font-family: "Noto Sans TC";
+}
+
+.top {
+    font-size: 10px;
+    background-color: #59B1D4;
+    color: #59B1D4;
+}
+
+header {
+    height: 125px;
+    margin: 8px 0px 0px;
+    background-color: #ffffff;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setting {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #59B1D4;
+    clip-path: polygon(0px 0px, 70% 0px, 60% 100%, 0px 100%); 
+}
+
+.school {
+    color: #F9EEB6;
+    font-weight: bold;
+}
+
+.school p {
+    display: inline-block;
+}
+
+.language {
+    padding-top: 5px;
+    background-color: #ffffff;
+}
+
+.chinese {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #58829A;
+    margin-right: 15px;
+}
+
+.icon {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    width: 75px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4E9DBD;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap; /* 讓內容不換行 */
+    display: flex;
+    scroll-behavior: smooth; /* 滑動平滑效果 */
+    gap: 20px;
+    font-size: 22px;
+    margin: 0px;
+    padding: 2px 0px;
+    color: #87543E;
+    font-weight: bold;
+}
+
+/* button {
+    cursor: pointer;
+} */
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.above {
+    padding: 0px 30px;
+}
+
+.location {
+    font-size: 20px;
+    white-space: nowrap;
+    gap: 15px;
+    display: inline-flex;
+    color: #59B1D4;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.download {
+    display: block;
+    white-space: nowrap;
+    color: #ffffff;
+    width: 264px;
+    height: auto;
+    fill: #f2bc9d;
+}
+
+.text {
+    fill: #ffffff;
+    font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+aside {
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    width: 180px;
+}
+
+.bookmark {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #58829A;
+    padding: 30px 0px;
+}
+
+.book {
+    padding: 8px 40px 8px 20px;
+}
+
+.All {
+    background-color: #59B1D4;
+    padding: 8px 40px 8px 20px;
+}
+
+main {
+    max-width: 75%;
+    border: 15px solid #58829A;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.information {
+    padding: 10px 30px;
+}
+
+.word {
+    width: 550px;
+}
+
+.file {
+    white-space: nowrap;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    color: #59B1D4;
+    font-weight: bold;
+    float: right;
+    font-weight: 550;
+    padding: 5px 10px;
+    margin: auto;         /*置中*/
+}
+
+.line {
+    border-bottom: 2px solid #58829A;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.change_page {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px;
+    width: 250px;
+    gap: 8px;        
+    margin: auto;    
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}
+
+.change {
+    padding: 8px 16px;
+    text-align: center;
+    margin: 0px;
+}
+
+.change_one {
+    padding: 8px 16px;
+    background-color: #59B1D4;
+    box-shadow: 0px 5px 5px #59B1D4;
+    margin: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #58829A;
+    padding: 10px 10px 1px 1px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.seperate { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 101.5px 5px;
+}
+
+.contact_information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.address {
+    margin: 10px;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.color {
+    color: #F9EEB6;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px 15px 0px 20px;
+    border-top: 1px solid #ffffff;
+}

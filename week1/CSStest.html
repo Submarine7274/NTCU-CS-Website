@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 模式切換</title>
+    <link id="theme-style" rel="stylesheet" href="lighton.css">
+</head>
+<body>
+
+    <button class="toggle-btn" onclick="toggleMode()">切換顯示模式</button>
+
+    <h1>大標題 - 這是標題範例</h1>
+    <h2>中標題 - 這是子標題範例</h2>
+    <p>這是一段普通的文字內容，用來展示一般的段落樣式。</p>
+
+    <div class="text-block">
+        這是一個文字區塊，適合放重要的內容或提醒資訊。
+    </div>
+
+    <img src="P1.png" alt="範例圖片" class="responsive-img"><br>
+    <img src="P2.png" alt="範例圖片" class="responsive-img">
+    <script>
+        function toggleMode() {
+            let themeLink = document.getElementById("theme-style");
+            if(themeLink.getAttribute("href") === "lighton.css") {
+                themeLink.setAttribute("href", "lightoff.css");
+            } 
+            else{
+                themeLink.setAttribute("href", "lighton.css");
+            }
+        }
+    </script>
+
+</body>
+</html>
