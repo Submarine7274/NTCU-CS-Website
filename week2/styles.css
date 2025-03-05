@@ -80,9 +80,9 @@ header {
 
 .scroll-container {
     overflow: hidden;
-    white-space: nowrap; /* 讓內容不換行 */
+    white-space: nowrap; 
     display: flex;
-    scroll-behavior: smooth; /* 滑動平滑效果 */
+    scroll-behavior: smooth; 
     gap: 20px;
     font-size: 22px;
     margin: 0px;
@@ -90,11 +90,6 @@ header {
     color: #87543E;
     font-weight: bold;
 }
-
-/* button {
-    cursor: pointer;
-} */
-
 .container {
     max-width: 90%;
     margin: 20px auto;
