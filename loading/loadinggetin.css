@@ -1,0 +1,51 @@
+@keyframes moveText {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes dropD {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.loading-container {
+    position: relative;
+    width: 100vw;
+    height: 100vw; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-text {
+    font-size: 84px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    animation: moveText 5s linear infinite;
+}
+
+.loading-text .d {
+    display: inline-block;
+    position: relative;
+}
+
+.falling-d {
+    font-size: 84px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 0; 
+    transform: translateX(-50%);
+    animation: dropD 1s ease-out 2s forwards infinite;
+}
